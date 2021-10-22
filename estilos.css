@@ -66,6 +66,10 @@ header {
 	box-shadow: 0 10px 21px rgba(21, 118, 131, .5);
 }
 /* FORMACION */
+.lateral {
+	background: url(https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80);
+	background-size: cover;
+}
 
 /* EXPERIENCIA PROFESIONAL */
 .job {
@@ -89,3 +93,30 @@ header {
 
 .job.desc {
 }
+
+/*
+selectores: el más importante el de clase .clase
+margin: espacio exterior
+padding: espacio interior
+border
+box-shadow
+text-shadow
+font-size
+border-radius
+font-family: usar una tipografía
+background: #ff0000
+background: url(http://rutadelaimgagen/foto.jpg)
+background-size:contain/cover
+text-align:
+line-height
+width
+height
+min-width
+min-height
+max-width
+max-height
+
+
+
+
+*/
