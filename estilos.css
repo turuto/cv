@@ -14,16 +14,19 @@ body {
 	margin: 0;
 	padding-right: 10px;
 	padding-left: 10px;
-}
 
-main {
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ul {
 	padding-left: 20px;
 
 	list-style: none;
+}
+h1,
+h2,
+h3 {
+	font-family: 'Noto Sans Mono', monospace;
 }
 
 /* CABECERA */
@@ -65,3 +68,24 @@ header {
 /* FORMACION */
 
 /* EXPERIENCIA PROFESIONAL */
+.job {
+	padding: 20px 10px;
+
+	border-radius: 5px;
+	box-shadow: 0 10px 21px rgba(21, 118, 131, .5);
+}
+
+.job__title {
+	margin: 0;
+
+	font-size: 30px;
+}
+.job__duration {
+	color: #888888;
+	border-bottom: 1px  dotted  rgb(73, 186, 200);
+
+	font-style: italic;
+}
+
+.job.desc {
+}
