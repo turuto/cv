@@ -1,3 +1,11 @@
-* {
-	border: 1px solid red;
+/*BASIC LAYOUT*/
+main {
+	display: flex;
 }
+
+@media(max-width: 768px) {
+	main {
+		flex-direction: column;
+	}
+}
+/* THE REST OF THE THINGS */
