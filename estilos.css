@@ -9,3 +9,59 @@ main {
 	}
 }
 /* THE REST OF THE THINGS */
+html,
+body {
+	margin: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+main {
+	font-family: sans-serif;
+}
+
+ul {
+	padding-left: 20px;
+
+	list-style: none;
+}
+
+/* CABECERA */
+.imagenPerfil {
+	float: left;
+
+	height: 150px;
+}
+
+header {
+	min-height: 170px;
+
+	text-align: right;
+
+	border-bottom: 1px solid #777777;
+}
+
+.tituloPrincipal {
+	margin: 0;
+	padding-top: 40px;
+
+	color: #32474B;
+
+	font-size: 58px;
+}
+.copy {
+	margin: 0;
+}
+.copy span {
+	padding: 2px;
+	padding-right: 8px;
+	padding-left: 8px;
+
+	color: white ;
+	border-radius: 3px;
+	background: rgb(73, 186, 200);
+	box-shadow: 0 10px 21px rgba(21, 118, 131, .5);
+}
+/* FORMACION */
+
+/* EXPERIENCIA PROFESIONAL */
